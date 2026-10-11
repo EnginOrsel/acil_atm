@@ -83,6 +83,7 @@ flutter run
 | `android/app/google-services.json` | Firebase yapılandırması (şablon: `.example`) |
 | `android/local.properties` | Yerel SDK yolları ve `MAPS_API_KEY` |
 
-## Lisans / Not
+## Lisans
 
-Bu proje eğitim ve portföy amaçlıdır. ATM bilgileri Google Places verisine ve kullanıcı bildirimlerine dayanır; doğruluğu garanti edilmez.
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. © 2026 Engin Örsel. Tüm hakları saklıdır. Proje kaynak kodları referans ve geliştirme amaçlı incelenebilir; kaynak gösterilmesi zorunludur.
+
