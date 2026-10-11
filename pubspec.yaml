@@ -1,0 +1,38 @@
+name: acil_atm
+description: "En yakın ATM'leri anında bulun."
+publish_to: 'none'
+version: 2.7.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  http: ^1.2.1
+  url_launcher: ^6.2.5
+  firebase_core: ^2.30.0
+  firebase_analytics: ^10.10.0
+  cloud_firestore: ^4.17.3
+  shared_preferences: ^2.2.3
+  envied: ^0.5.4+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+  envied_generator: ^0.5.4+1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/api.env
+    - assets/images/
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png" 
